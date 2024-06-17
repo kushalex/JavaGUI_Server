@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+		fx:id = "root" styleClass="border" fx:controller = "MyController">
+	<center>
+		<VBox spacing="10.0" alignment="CENTER" >
+			<ListView fx:id="listItems" VBox.vgrow="ALWAYS" />
+		</VBox>
+	</center>
+	
+</BorderPane>
